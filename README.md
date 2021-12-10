@@ -1,5 +1,8 @@
-# Week 10 Exercises
+# Object-oriented Programming in Python for Mathematicians
 
-Refer to the exercise instructions at https://object-oriented-python.github.io/10_trees_and_directed_acyclic_graphs.html#exercises
+## Chapter 9 Exercises
 
-These tests are for exercises 10.6 - 10.8. The tests build sequentially, so by exercise 10.8, all tests should pass with a correct implementation.
+Refer to the [exercise instructions](https://object-oriented-python.github.io/10_trees_and_directed_acyclic_graphs.html#exercises).
+
+These tests are for exercises 9.6 - 9.8. The tests build sequentially, so by
+exercise 9.8, all tests should pass with a correct implementation.
