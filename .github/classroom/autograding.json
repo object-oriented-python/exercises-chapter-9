@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "setup",
-      "setup": "sudo -H pip3 install setuptools pytest flake8 pep8-naming flake8-docstrings",
-      "run": "python3 -m pip install numpy",
+      "setup": "python3  -m pip install setuptools pytest flake8 pep8-naming flake8-docstrings numpy",
+      "run": "python3 -m pip install -U pip",
       "input": "",
       "output": "",
       "comparison": "included",
