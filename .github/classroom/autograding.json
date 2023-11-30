@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "setup",
-      "setup": "python3  -m pip install setuptools pytest flake8 pep8-naming flake8-docstrings numpy",
-      "run": "python3 -m pip install -U pip",
+      "setup": "python3 -m venv venv",
+      "run": "venv/bin/python -m pip install setuptools pytest flake8 pep8-naming flake8-docstrings numpy",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "setup-course-repo",
       "setup": "git clone https://github.com/object-oriented-python/object-oriented-programming.git",
-      "run": "python -m pip install object-oriented-programming/",
+      "run": "venv/bin/python -m pip install object-oriented-programming/",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "exercise-9-6",
       "setup": "",
-      "run": "pytest tests/test_exercise_9_6.py",
+      "run": "venv/bin/python -m pytest tests/test_exercise_9_6.py",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "exercise-9-7",
       "setup": "",
-      "run": "pytest tests/test_exercise_9_7.py",
+      "run": "venv/bin/python -m pytest tests/test_exercise_9_7.py",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -43,7 +43,7 @@
     {
       "name": "exercise-9-8",
       "setup": "",
-      "run": "pytest tests/test_exercise_9_8.py",
+      "run": "venv/bin/python -m pytest tests/test_exercise_9_8.py",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -53,7 +53,7 @@
     {
       "name": "flake8",
       "setup": "",
-      "run": "flake8 --extend-exclude=object-oriented-programming",
+      "run": "venv/bin/python -m flake8 expressions",
       "input": "",
       "output": "",
       "comparison": "included",
